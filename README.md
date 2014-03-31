@@ -2,7 +2,7 @@
 
 Set up a web server on your Pi and install WordPress
 
-## Step 1: Set up Apache Web Server
+## Step 1: Set up Apache web server
 
 Apache is a popular web server application you can install on the Raspberry Pi to allow it to serve web pages.
 
@@ -161,7 +161,7 @@ Running the `ls` or (`tree -L 1`) command here will show you the contents of a W
 
 This is the source of a default WordPress installation. The files you edit to customise your installation belong in the `wp-content` folder.
 
-## Step 5: Set up your WordPress Database
+## Step 5: Set up your WordPress database
 
 To get your WordPress site set up, you need a database. Run the `mysql` command in the terminal and provide your login credentials (e.g. username `root`, password `password`):
 
@@ -193,7 +193,7 @@ Query OK, 1 row affected (0.00 sec)
 
 Exit out of the MySQL prompt with `Ctrl + D`.
 
-## Step 6: WordPress Configuration
+## Step 6: WordPress configuration
 
 You need to find out your Pi's IP address to access it in the browser, so in a terminal type the command `hostname -I`.
 
