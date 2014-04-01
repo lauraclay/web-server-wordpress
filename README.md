@@ -185,7 +185,7 @@ Once you're connected to MySQL, you can create the database your WordPress insta
 mysql> create database wordpress;
 ```
 
-Note the semi-colon ending the statement. On success you should see the following message:
+Note the semicolon ending the statement. On success you should see the following message:
 
 ```
 Query OK, 1 row affected (0.00 sec)
